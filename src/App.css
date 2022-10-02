@@ -110,5 +110,7 @@ textarea:focus, input:focus{
 }
 
 .home-router-card:hover{
-   border: solid; 
+    box-sizing: content-box;
+   border: solid #25183e; 
+   border-width: 5px;
 }
