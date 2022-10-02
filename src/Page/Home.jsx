@@ -27,6 +27,46 @@ export default function Home() {
                 <div className="text-center p-[2rem] text-[24px]">
                     <span>Launch your page in seconds</span>
                 </div>
+                <div className="home-page-cards">
+                    <div className="card-totel">
+                        <div className="home-page-card">Claim your bio link</div>
+                        <div className="card-desc">
+                            <p>Choose your username, pick a theme (or design your own), and publish your page.</p>
+                        </div>
+                    </div>
+                    <div className="card-totel">
+                        <div className="home-page-card">Add all your links</div>
+                        <div className="card-desc">
+                            <p>Add your socials, websites, videos, anything. Your bio link is your new website.</p>
+                        </div>
+                    </div>
+                    <div className="card-totel">
+                        <div className="home-page-card">Use it everywhere</div>
+                        <div className="card-desc">
+                            <p>Use your bio link on your Instagram, Twitter, TikTok, emails, wherever people follow you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-router-cards">
+                <div className="home-router-carding">
+                    <div className="home-router-card">Use it everywhere</div>
+                    <div className="card-desc">
+                        <p>lorem ipsum.</p>
+                    </div>
+                </div>
+                <div className="home-router-carding">
+                    <div className="home-router-card">Use it everywhere</div>
+                    <div className="card-desc">
+                        <p>lorem ipsum.</p>
+                    </div>
+                </div>
+                <div className="home-router-carding">
+                    <div className="home-router-card">Use it everywhere</div>
+                    <div className="card-desc">
+                        <p>lorem ipsum.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
