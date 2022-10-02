@@ -17,10 +17,10 @@
     background-color: transparent;
     border: solid 3px #25183e;
     border-radius: 12px 0px 0px 12px;
-    height: 50px;
-    padding: 0.5rem;
+    height: 44px;
     color: white;
     text-align: center;
+
 }
 textarea:focus, input:focus{
     outline: none;
@@ -36,7 +36,7 @@ textarea:focus, input:focus{
 .button-style {
     padding: 1rem;
     border-radius: 0px 12px 12px 0px;
-    height: 50px;
+    height: 20px;
     background-color: #25183e;
     display: flex;
     justify-content: center;
@@ -48,6 +48,7 @@ textarea:focus, input:focus{
     background-color: #25183e;
     width: 100%;
     height: auto;
+    background-image: url(https://snippets.alexandru.so/grid.svg)
 }
 
 .home-page-cards{

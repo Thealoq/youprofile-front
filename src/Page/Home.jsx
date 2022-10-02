@@ -4,11 +4,11 @@ import { GoZap } from 'react-icons/go';
 export default function Home() {
     return (
         <div className="home-page ">
-            <div className="text-center p-[3rem] text-[24px]">Create a page to present who you are and what you do in one link.</div>
+            <div style={{ padding: "3rem", textAlign:"center", fontSize: "24px"}} >Create a page to present who you are and what you do in one link.</div>
             <div className="textbutton">
                 <input className="input-home" placeholder="youprofile.page/yourname" type="text" /><div className="button-style">Claim my link</div>
             </div>
-            <div className="text-center p-[24px]">It’s free, and takes less than a minute</div>
+            <div  style={{ padding: "2rem", textAlign:"center"}}  className="text-center">It’s free, and takes less than a minute</div>
             <div className="flex center align-center">
                 <div className="icon-with">
                     <div><AiFillHeart size={24} /></div>
@@ -24,7 +24,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="home-page-bg">
-                <div className="text-center p-[2rem] text-[24px]">
+                <div style={{ padding: "2rem", textAlign:"center", fontSize: "24px"}} className="text-center">
                     <span>Launch your page in seconds</span>
                 </div>
                 <div className="home-page-cards">
