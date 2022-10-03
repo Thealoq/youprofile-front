@@ -19,7 +19,9 @@
     border-radius: 12px 0px 0px 12px;
     height: 44px;
     color: white;
+    padding: 0.5rem;
     text-align: center;
+    width: 220px;
 
 }
 textarea:focus, input:focus{
@@ -36,7 +38,7 @@ textarea:focus, input:focus{
 .button-style {
     padding: 1rem;
     border-radius: 0px 12px 12px 0px;
-    height: 20px;
+    height: 34px;
     background-color: #25183e;
     display: flex;
     justify-content: center;
@@ -114,4 +116,96 @@ textarea:focus, input:focus{
     box-sizing: content-box;
    border: solid #25183e; 
    border-width: 5px;
+}
+
+.signup-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    flex-direction: column;
+    top: 0;
+}
+
+.signup-content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 24, 62);
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.signup-content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-content-cards div {
+    padding: 1rem;
+}
+
+.signup-content-title{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-content-title span{
+   left: 0;
+}
+
+.signup-home input {
+    border-radius: 4px;
+    width: 300px;
+    padding: 0.5rem;
+    color: white;
+    background-color: #201335;
+    border: none;
+}
+
+.inputs {
+    margin-top: -1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: -1rem;
+}
+
+.signup-home button {
+    background-color: #3c275b;
+    border-radius: 4px;
+    width: 300px;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+}
+
+.passworld{
+    font-size: 16px;
+}
+
+.content-or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 10px;
+    border: solid white 1px;
+    border-radius: 12px;
 }
