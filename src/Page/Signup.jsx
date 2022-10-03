@@ -5,7 +5,7 @@ export default function Signup() {
             <div className="signup-content-cards">
                 <div className="signup-content-title">
                     <span>
-                        Login
+                        Sign up
                     </span>
                 </div>
                 <div className='inputs'>
@@ -22,7 +22,6 @@ export default function Signup() {
                 <div className='buttons'>
                     <button>sign up with email</button>
                 </div>
-                <div className='passworld'>Forgot password?</div>
                 <div className='content-or'>
                     <div style={{ borderTop: "solid white", width: "90px" }} ></div>
                     <div style={{ marginTop: "-2rem" }} >Or</div>

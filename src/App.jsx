@@ -1,6 +1,7 @@
 import Home from "./Page/Home"
 import Login from "./Page/Login"
 import Signup from "./Page/Signup"
+import Forgot from "./Page/Forgot"
 import Navbar from "./layout/Navbar"
 import {
   BrowserRouter as Router,
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
+          <Route path="/Forgot" element={<Forgot />} />
         </Routes>
       </div>
     </Router>

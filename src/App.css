@@ -137,6 +137,22 @@ textarea:focus, input:focus{
     border-radius: 20px;
 }
 
+.forgot-content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 24, 62);
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.forgot-content-cards div {
+   padding: 0.5rem;
+}
+
+
 .signup-content-cards {
     display: flex;
     justify-content: center;
