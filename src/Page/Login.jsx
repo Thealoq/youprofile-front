@@ -19,7 +19,7 @@ export default function Login() {
                 <div className='buttons'>
                     <button>Login</button>
                 </div>
-                <div className='passworld'><a href="/Forgot">Forgot password?</a></div>
+                <div className='passworld'><a href="/forgot">Forgot password?</a></div>
                 <div className='content-or'>
                     <div style={{ borderTop: "solid white", width: "90px" }} ></div>
                     <div style={{ marginTop: "-2rem" }} >Or</div>

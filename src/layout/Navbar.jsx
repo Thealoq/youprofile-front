@@ -22,13 +22,13 @@ export default function Navbar() {
                       <a href="/"><span>youprofile.<b className="title-page">page</b></span></a>
                     </div>
                     <div className="nav-bg">
-                        <div className="withiy"><a href="/Login">Log in</a></div>
-                        <div className="nav-button"><a href="/Signup">Sign up</a></div>
+                        <div className="withiy"><a href="/login">Log in</a></div>
+                        <div className="nav-button"><a href="/signup">Sign up</a></div>
                         <div onClick={event => OpenMenu()}  className="nav-respon-content"><RiMenuFill size={24} /></div>
                     </div>
                     <div id="menu" className="responsive-menu">
-                        <div><a href="/Login">Log in</a></div>
-                        <div><a href="/Signup">Sign up</a></div>
+                        <div><a href="/login">Log in</a></div>
+                        <div><a href="/signup">Sign up</a></div>
                     </div>
                 </div>
             </div>
