@@ -1,6 +1,7 @@
 import Home from "./Page/Home"
 import Login from "./Page/Login"
 import Signup from "./Page/Signup"
+import NotFound from "./Page/NotFound"
 import Forgot from "./Page/Forgot"
 import Navbar from "./layout/Navbar"
 import {
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/forgot" element={<Forgot />} />
+          <Route path="*" element={<NotFound />} /> 
         </Routes>
       </div>
     </Router>
